@@ -9,7 +9,8 @@ Para probar voy a tomar las noticias mejor valoradas (mas de 100 puntos) porque 
 las mas importantes y vamos a quitar o desestimar las que tienen menos de ese puntaje. Focalizandonos en
 os articulos mas importantes.
 
-En resumen, vamos a limpiar (scrape) la info de esta website.
+En resumen, vamos a limpiar (scrape) la info de esta website usando beautifulSoup que me permite parsear un html que convierte en un string a un object que puedo manipular y usar en python.
+BeautifulSoap documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 Instalar con pip3 install: pip3 para version Python 3.8.3 32-bit
 
