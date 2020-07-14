@@ -1,4 +1,4 @@
-# SrapingDataWithPyton
+# ScrapingDataWithPyton
 https://news.ycombinator.com/
 
 Proyecto: se construye una herramienta (tool) usando web scraping, y la libreria BeautifulSoup
