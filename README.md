@@ -1,15 +1,15 @@
 # ScrapingDataWithPyton
-https://news.ycombinator.com/
 
-Proyecto: se construye una herramienta (tool) usando web scraping, y la libreria BeautifulSoup
-que recopile info de la pagina https://news.ycombinator.com/ que tiene noticias de actualidad
-relacionada con seguridad informatica y tecnologia. 
+#### Descripción del Proyecto 
+Se construye una herramienta (tool) usando web scraping, y la libreria BeautifulSoup
+que recopile info de la pagina https://news.ycombinator.com/ que es un sitio web de noticias sociales
+centrado en informatica y empresas.
 
-Para probar voy a tomar las noticias mejor valoradas (mas de 100 puntos) porque son las mas populares y
-las mas importantes y vamos a quitar o desestimar las que tienen menos de ese puntaje. Focalizandonos en
+Se tomaran las noticias mejor valoradas (mas de 100 puntos), vamos a quitar o desestimar las que tienen menos de ese puntaje. Focalizandonos en
 os articulos mas importantes.
 
 En resumen, vamos a limpiar (scrape) la info de esta website usando beautifulSoup que me permite parsear un html que convierte en un string a un object que puedo manipular y usar en python.
+
 BeautifulSoap documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 Instalar con pip3 install: pip3 para version Python 3.8.3 32-bit
