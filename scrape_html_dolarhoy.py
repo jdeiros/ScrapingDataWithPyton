@@ -9,11 +9,22 @@ resDolarBlue = requests.get('https://www.dolarhoy.com/cotizaciondolarblue')
 # soupDolarHoy = BeautifulSoup(resDolarHoy.text, 'html.parser')
 soupDolarOficial = BeautifulSoup(resDolarOficial.text, 'html.parser')
 soupDolarBlue = BeautifulSoup(resDolarBlue.text, 'html.parser')
+message = ''
 
-print('***** Dolar Oficial *****')
+# print('***** Dolar Oficial *****')
+# for info in soupDolarOficial.select('.pull-left'):
+#     print(info.text)
+# print('***** Dolar Blue *****')
+# for info in soupDolarBlue.select('.pull-left'):
+#     print(info.text)
+
+message = message + 'Dolar Oficial-> '
 for info in soupDolarOficial.select('.pull-left'):
-    print(info.text)
-print('***** Dolar Blue *****')
+    message = message + ' | ' + info.text
+    
+message = message + '\nDolar Blue-> '
 for info in soupDolarBlue.select('.pull-left'):
-    print(info.text)
+    message = message + ' | ' + info.text
 
+def getDolarCurrentQuote():
+    return message
