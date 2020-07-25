@@ -1,7 +1,7 @@
 # ScrapingDataWithPyton
 
 #### Descripción del Proyecto 
-Se construye una herramienta (tool) usando web scraping, y la libreria BeautifulSoup
+Se construye una herramienta (tool) usando la tecnica de web scraping, y la libreria BeautifulSoup
 que recopile info de la pagina https://news.ycombinator.com/ que es un sitio web de noticias sociales
 centrado en informatica y empresas.
 
