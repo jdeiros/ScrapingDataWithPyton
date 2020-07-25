@@ -4,7 +4,7 @@ from email.message import EmailMessage
 class EmailSender:
     email = EmailMessage()
     email['from'] = 'DollarHoy'
-    email['to'] = ', '.join(['jeronimodeiros@gmail.com', 'de.simone.mj@gmail.com'])
+    email['to'] = ', '.join(['jeronimodeiros@gmail.com'])
     email['subject'] = 'Cotización Actual del dolar en Argentina.'
     def __init__(self, content):
         self.email.set_content(content)
